@@ -56,6 +56,11 @@
         Here will be all the links I used to make this web page:
       </h3>
       <p class="text-xl text-amber-700">
+        All this app is made for educational purposes.
+         <br>
+         <br>
+      </p>
+      <p class="text-xl text-amber-700">
         The first link I used was the tailwind documentation to <br>
         see how to make the whole application. <br>
       </p>
@@ -65,16 +70,34 @@
         on how to make the navbar and footer.
       </p>
       <a class="text-xl text-blue-500" href="https://flowbite.com/docs/components/navbar/">Flowbite:</a>
-      
+      <br>
+      <p class="text-xl text-amber-700">
+        Almost all the images are taken from
+        <a class="text-xl text-blue-500" href="https://www.pexels.com/ca-es/">Pexels:</a>
+      </p>
     </div>
     <div>
       <img class="h-80 rounded-lg m-6" src="/src/img/links.webp" alt="">
     </div>
   </div> 
 
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var toggleButton = document.querySelector('[data-collapse-toggle="navbar-default"]');
+      var navbar = document.querySelector('#navbar-default');
+  
+      toggleButton.addEventListener('click', function() {
+        var isExpanded = toggleButton.getAttribute('aria-expanded') === 'true';
+        toggleButton.setAttribute('aria-expanded', !isExpanded);
+        navbar.classList.toggle('hidden');
+        navbar.classList.toggle('md:block');
+      });
+    });
+  </script>
+
 </body>
 
-<footer class="bg-amber-700 dark:bg-gray-900">
+<footer class="bg-amber-700 dark:bg-gray-900 md:fixed bottom-0 w-full">
   <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
       <div class="md:flex md:justify-between">
         <div class="mb-6 md:mb-0">

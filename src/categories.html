@@ -79,10 +79,25 @@
     <!-- Add more items as needed -->
     </div>
   </section>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var toggleButton = document.querySelector('[data-collapse-toggle="navbar-default"]');
+      var navbar = document.querySelector('#navbar-default');
+  
+      toggleButton.addEventListener('click', function() {
+        var isExpanded = toggleButton.getAttribute('aria-expanded') === 'true';
+        toggleButton.setAttribute('aria-expanded', !isExpanded);
+        navbar.classList.toggle('hidden');
+        navbar.classList.toggle('md:block');
+      });
+    });
+  </script>
+
 </body>
 
 
-<footer class="bg-amber-700 dark:bg-gray-900 fixed bottom-0 w-full">
+<footer class="bg-amber-700 dark:bg-gray-900 md:fixed bottom-0 w-full">
   <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
       <div class="md:flex md:justify-between">
         <div class="mb-6 md:mb-0">
