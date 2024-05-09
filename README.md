@@ -189,3 +189,10 @@ When creating multimedia works, it is often unavoidable to use resources created
 Therefore, when submitting a practice that uses third-party resources, it should be accompanied by a document detailing the resources used. This document should specify the name of each resource, its author, where it was obtained, and its legal status — whether the work is protected by copyright or falls under another usage license (Creative Commons, GNU, GPL, etc.). The student must ensure that the chosen license does not explicitly prohibit its use within the scope of the practice. If the corresponding information cannot be found, it should be assumed that the work is protected by copyright.
 
 Additionally, when digital works are used, the original files must be attached, and their source code, if applicable.
+
+### Video i Documentació
+
+
+- [Documentació del projecte](https://docs.google.com/document/d/1AzWQ-B9agPrbMI1d7kNWbyYjTTLa7-_vnevMSzQpmQ0/edit?usp=sharing)
+
+- [Video del projecte](https://youtu.be/GgLwISazipU)
